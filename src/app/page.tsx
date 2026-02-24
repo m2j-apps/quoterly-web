@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
+import Image from "next/image";
 
 const testimonials = [
   {
@@ -134,39 +135,60 @@ export default function Home() {
           }}
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-4 py-1.5 mb-8">
-              <span className="w-1.5 h-1.5 bg-emerald-400 rounded-full" />
-              <span className="text-sm text-slate-400">Coming soon to iOS &amp; Android</span>
-            </div>
-            <h1 className="text-5xl md:text-7xl font-bold text-white tracking-tight leading-[1.1] mb-6">
-              Know what your
-              <br />
-              renovation
-              <br />
-              <span className="text-[#f59e0b]">should cost.</span>
-            </h1>
-            <p className="text-xl text-slate-400 max-w-xl mb-10 leading-relaxed">
-              Scan contractor quotes. Validate every line item against real
-              market data. Negotiate with confidence and save thousands.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-3">
-              <div className="flex items-center gap-3 bg-white/10 border border-white/20 rounded-xl px-6 py-3 hover:bg-white/[0.15] transition-colors cursor-pointer">
-                <svg className="w-7 h-7 text-white" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
-                </svg>
-                <div className="text-left">
-                  <p className="text-[10px] text-slate-400 leading-tight">Download on the</p>
-                  <p className="text-sm font-semibold text-white leading-tight">App Store</p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            {/* Left — copy */}
+            <div>
+              <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-4 py-1.5 mb-8">
+                <span className="w-1.5 h-1.5 bg-emerald-400 rounded-full" />
+                <span className="text-sm text-slate-400">Coming soon to iOS &amp; Android</span>
+              </div>
+              <h1 className="text-5xl md:text-7xl font-bold text-white tracking-tight leading-[1.1] mb-6">
+                Know what your
+                <br />
+                renovation
+                <br />
+                <span className="text-[#f59e0b]">should cost.</span>
+              </h1>
+              <p className="text-xl text-slate-400 max-w-xl mb-10 leading-relaxed">
+                Scan contractor quotes. Validate every line item against real
+                market data. Negotiate with confidence and save thousands.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-3">
+                <div className="flex items-center gap-3 bg-white/10 border border-white/20 rounded-xl px-6 py-3 hover:bg-white/[0.15] transition-colors cursor-pointer">
+                  <svg className="w-7 h-7 text-white" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
+                  </svg>
+                  <div className="text-left">
+                    <p className="text-[10px] text-slate-400 leading-tight">Download on the</p>
+                    <p className="text-sm font-semibold text-white leading-tight">App Store</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-3 bg-white/10 border border-white/20 rounded-xl px-6 py-3 hover:bg-white/[0.15] transition-colors cursor-pointer">
+                  <svg className="w-7 h-7 text-white" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M3,20.5v-17c0-1.1,1.35-1.65,2.12-.87l14.06,8.5c0.77,0.48,0.77,1.48,0,1.96L5.12,21.37C4.35,22.15,3,21.6,3,20.5z" />
+                  </svg>
+                  <div className="text-left">
+                    <p className="text-[10px] text-slate-400 leading-tight">Get it on</p>
+                    <p className="text-sm font-semibold text-white leading-tight">Google Play</p>
+                  </div>
                 </div>
               </div>
-              <div className="flex items-center gap-3 bg-white/10 border border-white/20 rounded-xl px-6 py-3 hover:bg-white/[0.15] transition-colors cursor-pointer">
-                <svg className="w-7 h-7 text-white" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M3,20.5v-17c0-1.1,1.35-1.65,2.12-.87l14.06,8.5c0.77,0.48,0.77,1.48,0,1.96L5.12,21.37C4.35,22.15,3,21.6,3,20.5z" />
-                </svg>
-                <div className="text-left">
-                  <p className="text-[10px] text-slate-400 leading-tight">Get it on</p>
-                  <p className="text-sm font-semibold text-white leading-tight">Google Play</p>
+            </div>
+
+            {/* Right — phone mockup */}
+            <div className="hidden lg:flex justify-center">
+              <div className="relative">
+                <div className="absolute -inset-8 bg-[#f59e0b]/10 rounded-full blur-3xl" />
+                <div className="relative bg-[#111] rounded-[3rem] p-3 shadow-2xl shadow-black/50" style={{ transform: "perspective(1000px) rotateY(-5deg)" }}>
+                  <div className="rounded-[2.4rem] overflow-hidden w-[280px] h-[600px] relative">
+                    <Image
+                      src="/app-screenshot.png"
+                      alt="Quoterly app showing a kitchen remodel quote analysis with $3,400 in overcharges detected"
+                      fill
+                      className="object-cover object-top"
+                      priority
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -189,7 +211,7 @@ export default function Home() {
             </div>
             <div className="hidden md:block w-px h-8 bg-white/20" />
             <div className="flex items-center gap-3">
-              <span className="text-2xl font-bold text-[#f59e0b]">10 min</span>
+              <span className="text-2xl font-bold text-[#f59e0b]">60 sec</span>
               <span className="text-sm text-slate-300">To scan your first quote</span>
             </div>
           </div>
