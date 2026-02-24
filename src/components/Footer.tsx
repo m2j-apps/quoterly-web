@@ -27,7 +27,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li><Link href="/privacy" className="text-sm text-slate-400 hover:text-white transition-colors">Privacy Policy</Link></li>
               <li><Link href="/terms" className="text-sm text-slate-400 hover:text-white transition-colors">Terms of Use</Link></li>
-              <li><a href="mailto:support@quoterly.app" className="text-sm text-slate-400 hover:text-white transition-colors">Support</a></li>
+              <li><Link href="/support" className="text-sm text-slate-400 hover:text-white transition-colors">Support</Link></li>
             </ul>
           </div>
         </div>
