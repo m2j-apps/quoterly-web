@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(for dir in */)",
+      "Bash(do [ -f \"$dir/vercel.json\" ])",
+      "Bash(echo:*)",
+      "Bash([ -f \"$dir/next.config.js\" ])",
+      "Bash([ -f \"$dir/next.config.ts\" ])",
+      "Bash(done)",
+      "Bash([ -f vercel.json ])",
+      "Bash(git config:*)",
+      "Bash(npm run build:*)"
+    ]
+  }
+}
