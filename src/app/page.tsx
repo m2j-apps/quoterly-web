@@ -178,14 +178,16 @@ export default function Home() {
             {/* Right -phone mockup */}
             <div className="hidden lg:flex justify-center">
               <div className="relative">
-                <div className="absolute -inset-8 bg-[#f59e0b]/10 rounded-full blur-3xl" />
-                <div className="relative bg-[#111] rounded-[3rem] p-3 shadow-2xl shadow-black/50">
-                  <div className="rounded-[2.4rem] overflow-hidden w-[280px] h-[600px] relative">
+                <div className="absolute -inset-8 bg-[#f59e0b]/10 rounded-full blur-3xl -z-10" />
+                <div className="bg-[#111] rounded-[3rem] p-3 shadow-2xl shadow-black/50">
+                  <div className="rounded-[2.4rem] overflow-hidden w-[280px] h-[600px]">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src="/app-screenshot.png"
                       alt="Quoterly app showing a kitchen remodel quote analysis with $3,400 in overcharges detected"
-                      className="absolute inset-0 w-full h-full object-cover object-top"
+                      width={1080}
+                      height={2340}
+                      className="w-full h-full object-cover object-top"
                     />
                   </div>
                 </div>
