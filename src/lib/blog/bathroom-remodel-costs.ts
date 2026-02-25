@@ -1,7 +1,7 @@
 export const post = {
   slug: "bathroom-remodel-costs",
   title: "Bathroom Remodel Costs: What's Actually Fair in 2026?",
-  date: "2026-02-03",
+  date: "2026-01-26",
   readTime: "9 min read",
   excerpt:
     "A data-driven breakdown of what you should expect to pay for bathroom remodels at every scope and budget level.",

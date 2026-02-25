@@ -1,7 +1,7 @@
 export const post = {
   slug: "protect-yourself-from-contractor-overpayment",
   title: "How to Protect Yourself From Contractor Overpayment",
-  date: "2026-02-17",
+  date: "2026-02-09",
   readTime: "8 min read",
   excerpt:
     "Systematic strategies homeowners use to ensure they never pay more than fair market value for any renovation.",

@@ -2,7 +2,7 @@ export const post = {
   slug: "how-to-negotiate-with-contractors",
   title:
     "How to Negotiate With Contractors Without Damaging the Relationship",
-  date: "2026-01-06",
+  date: "2025-12-29",
   readTime: "7 min read",
   excerpt:
     "You can negotiate price without being rude or ruining your working relationship. Here's exactly how to do it.",

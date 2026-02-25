@@ -1,7 +1,7 @@
 export const post = {
   slug: "understanding-change-orders",
   title: "Understanding Change Orders: When Are They Legitimate?",
-  date: "2026-01-20",
+  date: "2026-01-12",
   readTime: "6 min read",
   excerpt:
     "Change orders are one of the most common ways renovation costs balloon. Know when to approve and when to push back.",

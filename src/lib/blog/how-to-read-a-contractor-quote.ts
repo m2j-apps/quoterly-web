@@ -1,7 +1,7 @@
 export const post = {
   slug: "how-to-read-a-contractor-quote",
   title: "How to Read a Contractor Quote: What Every Homeowner Should Know",
-  date: "2025-12-23",
+  date: "2025-12-15",
   readTime: "6 min read",
   excerpt:
     "Most homeowners have never been taught how to read a contractor quote. This guide fixes that.",

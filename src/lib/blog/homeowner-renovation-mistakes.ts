@@ -1,7 +1,7 @@
 export const post = {
   slug: "homeowner-renovation-mistakes",
   title: "7 Homeowner Mistakes That Cost You Thousands on Renovations",
-  date: "2026-02-10",
+  date: "2026-02-02",
   readTime: "6 min read",
   excerpt:
     "The most common (and costly) mistakes homeowners make when hiring contractors — and how to avoid every one of them.",

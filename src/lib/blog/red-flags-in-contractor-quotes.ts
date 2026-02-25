@@ -1,7 +1,7 @@
 export const post = {
   slug: "red-flags-in-contractor-quotes",
   title: "Red Flags in Contractor Quotes (And How to Spot Them)",
-  date: "2025-12-30",
+  date: "2025-12-22",
   readTime: "8 min read",
   excerpt:
     "Some contractors rely on homeowners not knowing what a fair price looks like. These red flags tell you when something's off.",

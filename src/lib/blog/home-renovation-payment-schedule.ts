@@ -2,7 +2,7 @@ export const post = {
   slug: "home-renovation-payment-schedule",
   title:
     "The Home Renovation Payment Schedule: Don't Pay Before Work is Done",
-  date: "2026-02-24",
+  date: "2026-02-16",
   readTime: "7 min read",
   excerpt:
     "A fair payment schedule protects you. Learn when to pay, how much, and what milestones should gate each payment.",

@@ -1,7 +1,7 @@
 export const post = {
   slug: "how-to-compare-contractor-quotes",
   title: "How to Compare Multiple Contractor Quotes the Right Way",
-  date: "2026-01-27",
+  date: "2026-01-19",
   readTime: "7 min read",
   excerpt:
     "Getting three quotes isn't enough. Here's how to actually compare them line-by-line to find the best value.",

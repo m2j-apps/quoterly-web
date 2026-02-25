@@ -1,7 +1,7 @@
 export const post = {
   slug: "how-much-should-a-kitchen-renovation-cost",
   title: "How Much Should a Kitchen Renovation Cost in 2026?",
-  date: "2025-12-16",
+  date: "2025-12-08",
   readTime: "10 min read",
   excerpt:
     "From minor refreshes to full gut renovations — a realistic look at kitchen remodel costs broken down by scope and region.",

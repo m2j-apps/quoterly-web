@@ -1,7 +1,7 @@
 export const post = {
   slug: "fair-markup-on-renovation-materials",
   title: "What is a Fair Markup on Home Renovation Materials?",
-  date: "2026-01-13",
+  date: "2026-01-05",
   readTime: "5 min read",
   excerpt:
     "Contractors mark up materials — that's expected. But how much is fair? The answer might surprise you.",
