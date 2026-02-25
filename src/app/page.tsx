@@ -185,8 +185,8 @@ export default function Home() {
                     <img
                       src="/app-screenshot.png"
                       alt="Quoterly app showing a kitchen remodel quote analysis with $3,400 in overcharges detected"
-                      width={1080}
-                      height={2340}
+                      width={560}
+                      height={1213}
                       className="w-full h-full object-cover object-top"
                     />
                   </div>
