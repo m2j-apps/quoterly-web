@@ -8,10 +8,10 @@ export const post = {
   metaDescription:
     "Essential questions to ask a contractor before signing a renovation contract. Cover licensing, insurance, timelines, payment terms, and more to protect your project.",
   content: `
-    <p class="lead">You've collected quotes, compared prices, and narrowed your list to a contractor you feel good about. Before you sign anything, there's one more step that separates homeowners who have smooth renovations from those who end up in disputes: asking the right questions. These twelve questions cover the areas where miscommunication causes the most problems — and getting clear answers now can save you thousands later.</p>
+    <p class="lead">You've collected quotes, compared prices, and narrowed your list to a contractor you feel good about. Before you sign anything, there's one more step that separates homeowners who have smooth renovations from those who end up in disputes: asking the right questions. These twelve questions cover the areas where miscommunication causes the most problems -and getting clear answers now can save you thousands later.</p>
 
     <h2>1. Are You Licensed and Insured?</h2>
-    <p>This is non-negotiable. A licensed contractor has met your state or municipality's requirements for training, experience, and competency. Insurance — specifically general liability and workers' compensation — protects you from financial responsibility if someone is injured on your property or if the work causes damage.</p>
+    <p>This is non-negotiable. A licensed contractor has met your state or municipality's requirements for training, experience, and competency. Insurance -specifically general liability and workers' compensation -protects you from financial responsibility if someone is injured on your property or if the work causes damage.</p>
     <p>Don't just take their word for it. Ask for their license number and verify it through your state's licensing board. Request a certificate of insurance and confirm it's current. A legitimate contractor will have these documents ready without hesitation.</p>
 
     <h2>2. How Long Have You Been Doing This Type of Work?</h2>
@@ -25,22 +25,22 @@ export const post = {
     <p>On many residential projects, the person who sells the job is not the person who manages it day to day. Ask who your primary point of contact will be once work begins. Will the contractor be on site personally, or will a project manager or foreman oversee the crew? How often will the lead contractor visit? Knowing the chain of communication upfront prevents the frustration of not knowing who to talk to when questions arise.</p>
 
     <h2>5. What's the Realistic Timeline?</h2>
-    <p>Every homeowner wants to hear their project will be done quickly. A trustworthy contractor will give you an honest timeline that accounts for material lead times, permit approvals, inspections, and a buffer for the unexpected. Be wary of timelines that sound too aggressive — they often lead to rushed work or missed deadlines.</p>
+    <p>Every homeowner wants to hear their project will be done quickly. A trustworthy contractor will give you an honest timeline that accounts for material lead times, permit approvals, inspections, and a buffer for the unexpected. Be wary of timelines that sound too aggressive -they often lead to rushed work or missed deadlines.</p>
     <p>Ask specifically: What's the expected start date? What's the projected completion date? What could cause delays, and how will you communicate them? A contractor who thinks carefully about timeline risks is one who has managed enough projects to know that things rarely go exactly to plan.</p>
 
     <h2>6. What Exactly Is Included in This Quote?</h2>
     <p>This question seems obvious, but it's the source of more disputes than almost anything else. Go through the quote line by line and confirm what's included and what's not. Pay special attention to these commonly excluded items:</p>
     <ul>
-      <li><strong>Permits and inspection fees</strong> — Some contractors include these; others treat them as the homeowner's responsibility.</li>
-      <li><strong>Demolition and debris removal</strong> — Tearing out old materials and hauling them away is labor-intensive and often quoted separately.</li>
-      <li><strong>Finish work and paint</strong> — On some projects, the general contractor handles everything. On others, painting and trim are left to the homeowner or a separate subcontractor.</li>
-      <li><strong>Appliance and fixture installation</strong> — If you're supplying your own appliances, confirm whether installation is included in the labor cost.</li>
-      <li><strong>Site cleanup</strong> — Daily cleanup, final cleaning, and dumpster rental may or may not be part of the quote.</li>
+      <li><strong>Permits and inspection fees</strong> -Some contractors include these; others treat them as the homeowner's responsibility.</li>
+      <li><strong>Demolition and debris removal</strong> -Tearing out old materials and hauling them away is labor-intensive and often quoted separately.</li>
+      <li><strong>Finish work and paint</strong> -On some projects, the general contractor handles everything. On others, painting and trim are left to the homeowner or a separate subcontractor.</li>
+      <li><strong>Appliance and fixture installation</strong> -If you're supplying your own appliances, confirm whether installation is included in the labor cost.</li>
+      <li><strong>Site cleanup</strong> -Daily cleanup, final cleaning, and dumpster rental may or may not be part of the quote.</li>
     </ul>
     <p>If anything is ambiguous, get it clarified in writing before you sign. Verbal agreements are worth the paper they're printed on.</p>
 
     <h2>7. How Do You Handle Change Orders?</h2>
-    <p>Change orders — modifications to the original scope of work — are where renovation budgets most commonly go off the rails. Before signing, ask your contractor to explain their change order process. Specifically: Will changes be documented in writing before work proceeds? Will you receive a cost estimate for each change before approving it? Is there an administrative fee or markup on change orders?</p>
+    <p>Change orders -modifications to the original scope of work -are where renovation budgets most commonly go off the rails. Before signing, ask your contractor to explain their change order process. Specifically: Will changes be documented in writing before work proceeds? Will you receive a cost estimate for each change before approving it? Is there an administrative fee or markup on change orders?</p>
     <p>A well-run operation has a clear, documented process for handling scope changes. A contractor who says "we'll figure it out as we go" is a contractor who will surprise you with costs later.</p>
 
     <h2>8. What's the Payment Schedule?</h2>
@@ -60,10 +60,10 @@ export const post = {
 
     <h2>12. Can I See the Contract Before Committing?</h2>
     <p>A professional contractor will provide a written contract that covers the full scope of work, materials specifications, payment schedule, timeline, change order process, warranty terms, and dispute resolution procedures. Ask to take the contract home and review it before signing. If the contractor pressures you to sign on the spot, that's a red flag.</p>
-    <p>Read every line. Look for clauses about cancellation terms, lien waivers, and what happens if either party wants to terminate the agreement. If anything is unclear, ask for clarification — or have a lawyer review it. The cost of a one-hour legal consultation is insignificant compared to the cost of a contract dispute midway through a renovation.</p>
+    <p>Read every line. Look for clauses about cancellation terms, lien waivers, and what happens if either party wants to terminate the agreement. If anything is unclear, ask for clarification -or have a lawyer review it. The cost of a one-hour legal consultation is insignificant compared to the cost of a contract dispute midway through a renovation.</p>
 
     <h2>The Bottom Line</h2>
-    <p>Hiring a contractor is one of the largest financial commitments most homeowners make outside of buying the home itself. The twelve questions above aren't about being difficult or distrustful — they're about establishing clear expectations that protect both you and the contractor. A professional will welcome these questions because they've heard them before from every informed homeowner they've worked with.</p>
-    <p>If a contractor can't answer these questions clearly, or seems bothered that you're asking, that tells you everything you need to know. The right contractor will treat your due diligence as a sign that you're a serious, prepared client — exactly the kind of homeowner they want to work with.</p>
+    <p>Hiring a contractor is one of the largest financial commitments most homeowners make outside of buying the home itself. The twelve questions above aren't about being difficult or distrustful -they're about establishing clear expectations that protect both you and the contractor. A professional will welcome these questions because they've heard them before from every informed homeowner they've worked with.</p>
+    <p>If a contractor can't answer these questions clearly, or seems bothered that you're asking, that tells you everything you need to know. The right contractor will treat your due diligence as a sign that you're a serious, prepared client -exactly the kind of homeowner they want to work with.</p>
   `,
 };

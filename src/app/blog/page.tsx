@@ -5,7 +5,7 @@ import { posts } from "@/lib/blog";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog — Quoterly",
+  title: "Blog | Quoterly",
   description:
     "Homeowner guides on contractor quotes, renovation costs, negotiation tactics, and how to avoid overpaying on home projects.",
 };

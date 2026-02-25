@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms of Use — Quoterly",
+  title: "Terms of Use | Quoterly",
   description: "Quoterly terms of use and end user license agreement.",
 };
 

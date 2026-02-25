@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — Quoterly",
+  title: "Privacy Policy | Quoterly",
   description: "Quoterly privacy policy. Learn how we protect your data.",
 };
 
@@ -88,10 +88,10 @@ export default function PrivacyPage() {
             <h2 className="text-xl font-semibold text-[#0f172a] mb-3">Third-Party Services</h2>
             <p>The Service uses the following third-party services:</p>
             <ul className="list-disc pl-5 space-y-2">
-              <li><strong>Firebase (Google)</strong> &mdash; Authentication and data storage</li>
-              <li><strong>RevenueCat</strong> &mdash; Subscription management</li>
-              <li><strong>Google Cloud</strong> &mdash; Document processing for quote scanning</li>
-              <li><strong>Apple App Store / Google Play</strong> &mdash; Payment processing</li>
+              <li><strong>Firebase (Google)</strong> - Authentication and data storage</li>
+              <li><strong>RevenueCat</strong> - Subscription management</li>
+              <li><strong>Google Cloud</strong> - Document processing for quote scanning</li>
+              <li><strong>Apple App Store / Google Play</strong> - Payment processing</li>
             </ul>
             <p className="mt-3">
               Each of these services has their own privacy policies governing their use of your data.

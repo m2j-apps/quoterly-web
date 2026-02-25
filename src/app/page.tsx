@@ -19,7 +19,7 @@ const testimonials = [
   },
   {
     quote:
-      "As a handyman, I use Quoterly to keep my prices competitive and show customers they\u2019re getting treated fairly. My proposals always land in the \u2018Great Value\u2019 range \u2014 customers are happy and I close more deals!",
+      "As a handyman, I use Quoterly to keep my prices competitive and show customers they\u2019re getting treated fairly. My proposals always land in the \u2018Great Value\u2019 range -customers are happy and I close more deals!",
     name: "Mohamed N.",
     initials: "MN",
   },
@@ -31,7 +31,7 @@ const testimonials = [
   },
   {
     quote:
-      "My contractor tried to slip in a $2,800 change order for \u2018unforeseen conditions.\u2019 The change order analyzer helped me push back with data. Ended up paying $900 \u2014 the actual fair price.",
+      "My contractor tried to slip in a $2,800 change order for \u2018unforeseen conditions.\u2019 The change order analyzer helped me push back with data. Ended up paying $900 -the actual fair price.",
     name: "Sarah C.",
     initials: "SC",
   },
@@ -43,7 +43,7 @@ const testimonials = [
   },
   {
     quote:
-      "Scanned my bathroom remodel quote and instantly saw the tile labor was priced 35% above market rate. I sent my contractor that screenshot \u2014 he adjusted the price same day.",
+      "Scanned my bathroom remodel quote and instantly saw the tile labor was priced 35% above market rate. I sent my contractor that screenshot -he adjusted the price same day.",
     name: "Angela M.",
     initials: "AM",
   },
@@ -62,11 +62,11 @@ const faqs = [
   },
   {
     q: "How does quote scanning work?",
-    a: "Take a photo of your contractor\u2019s quote or upload a PDF. We extract every line item automatically \u2014 labor, materials, permits, everything. Each item is then validated against regional market data so you know exactly what\u2019s fair.",
+    a: "Take a photo of your contractor\u2019s quote or upload a PDF. We extract every line item automatically -labor, materials, permits, everything. Each item is then validated against regional market data so you know exactly what\u2019s fair.",
   },
   {
     q: "What is price validation?",
-    a: "We compare every line item against real pricing data from your area. You\u2019ll see if each item is priced low, fair, or high \u2014 plus the typical price range so you can negotiate with confidence.",
+    a: "We compare every line item against real pricing data from your area. You\u2019ll see if each item is priced low, fair, or high -plus the typical price range so you can negotiate with confidence.",
   },
   {
     q: "Can I compare multiple quotes?",
@@ -74,7 +74,7 @@ const faqs = [
   },
   {
     q: "What\u2019s the Negotiation Manager?",
-    a: "When we detect overpriced items, we generate talking points and scripts you can use to negotiate. No more awkward conversations \u2014 just data-backed requests for fair pricing.",
+    a: "When we detect overpriced items, we generate talking points and scripts you can use to negotiate. No more awkward conversations -just data-backed requests for fair pricing.",
   },
   {
     q: "How does change order tracking work?",
@@ -90,11 +90,11 @@ const faqs = [
   },
   {
     q: "Do contractors know I\u2019m using Quoterly?",
-    a: "Only if you tell them. Many users share their price validation screenshots during negotiations \u2014 it\u2019s powerful when a contractor sees you have market data backing your ask.",
+    a: "Only if you tell them. Many users share their price validation screenshots during negotiations -it\u2019s powerful when a contractor sees you have market data backing your ask.",
   },
   {
     q: "Why do I need this?",
-    a: "Contractors have apps and software specifically designed to help them maximize profit on every job. Quoterly levels the playing field \u2014 giving you the same pricing intelligence so you can maximize your savings.",
+    a: "Contractors have apps and software specifically designed to help them maximize profit on every job. Quoterly levels the playing field -giving you the same pricing intelligence so you can maximize your savings.",
   },
 ];
 
@@ -136,7 +136,7 @@ export default function Home() {
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            {/* Left — copy */}
+            {/* Left -copy */}
             <div>
               <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-4 py-1.5 mb-8">
                 <span className="w-1.5 h-1.5 bg-emerald-400 rounded-full" />
@@ -175,7 +175,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Right — phone mockup */}
+            {/* Right -phone mockup */}
             <div className="hidden lg:flex justify-center">
               <div className="relative">
                 <div className="absolute -inset-8 bg-[#f59e0b]/10 rounded-full blur-3xl" />
@@ -226,7 +226,7 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {[
-              { num: "01", title: "Scan your quote", desc: "Take a photo or upload a PDF. Every line item \u2014 labor, materials, permits \u2014 is extracted automatically in seconds." },
+              { num: "01", title: "Scan your quote", desc: "Take a photo or upload a PDF. Every line item -labor, materials, permits -is extracted automatically in seconds." },
               { num: "02", title: "See what\u2019s fair", desc: "Each item is validated against regional market data. See instantly what\u2019s priced fairly, what\u2019s high, and by how much." },
               { num: "03", title: "Negotiate & save", desc: "Use data-backed talking points to push back on overpriced items. Save thousands without the awkward conversations." },
             ].map((step, i) => (
@@ -249,12 +249,12 @@ export default function Home() {
             <div>
               <p className="text-sm font-semibold text-[#f59e0b] uppercase tracking-wider mb-3">Price Intelligence</p>
               <h2 className="text-3xl md:text-4xl font-bold text-[#0f172a] mb-6 leading-tight">
-                See exactly what&apos;s fair &mdash; before you sign
+                See exactly what&apos;s fair - before you sign
               </h2>
               <p className="text-lg text-slate-500 mb-8 leading-relaxed">
                 Every line item on your contractor&apos;s quote is validated against real
                 pricing data from your area. See instantly if you&apos;re being
-                overcharged &mdash; and by how much.
+                overcharged - and by how much.
               </p>
               <ul className="space-y-4">
                 {[
@@ -279,7 +279,7 @@ export default function Home() {
               <div className="absolute -inset-4 bg-gradient-to-r from-[#f59e0b]/10 to-[#1a365d]/10 rounded-3xl blur-2xl" />
               <div className="relative bg-white rounded-2xl shadow-2xl border border-slate-200 overflow-hidden">
                 <div className="bg-[#0f172a] px-6 py-4 flex items-center justify-between">
-                  <span className="text-sm font-semibold text-white">Kitchen Remodel &mdash; Quote Analysis</span>
+                  <span className="text-sm font-semibold text-white">Kitchen Remodel - Quote Analysis</span>
                   <span className="text-xs text-[#f59e0b] font-medium">ABC Renovations</span>
                 </div>
                 <div className="p-5 space-y-1">
@@ -332,7 +332,7 @@ export default function Home() {
               </div>
               <h3 className="text-lg font-semibold text-[#0f172a] mb-2">Quote Scanning</h3>
               <p className="text-slate-500 text-sm leading-relaxed">
-                Snap a photo or upload a PDF. Every line item &mdash; labor, materials, permits &mdash; extracted automatically in seconds.
+                Snap a photo or upload a PDF. Every line item - labor, materials, permits - extracted automatically in seconds.
               </p>
             </div>
 
@@ -403,7 +403,7 @@ export default function Home() {
               </div>
               <h3 className="text-lg font-semibold text-[#0f172a] mb-2">Negotiation Manager</h3>
               <p className="text-slate-500 text-sm leading-relaxed">
-                Get data-backed talking points and scripts to negotiate confidently. No more awkward conversations &mdash; just fair pricing.
+                Get data-backed talking points and scripts to negotiate confidently. No more awkward conversations - just fair pricing.
               </p>
             </div>
           </div>

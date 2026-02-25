@@ -4,7 +4,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Support — Quoterly",
+  title: "Support | Quoterly",
   description:
     "Get help with Quoterly. Contact support, troubleshoot common issues, and learn how to get the most accurate pricing data.",
 };
@@ -20,7 +20,7 @@ const troubleshooting = [
   },
   {
     q: "The pricing data doesn\u2019t seem right for my area",
-    a: "Quoterly uses a layered pricing system that pulls data at the community, ZIP code, metro area, state, and national level. If your specific area doesn\u2019t have enough local data, the app falls back to broader regional averages. Pricing can also vary based on the finish level you selected (Budget, Mid-Range, High-End, or Luxury) \u2014 make sure your project\u2019s finish level matches what your contractor is quoting.",
+    a: "Quoterly uses a layered pricing system that pulls data at the community, ZIP code, metro area, state, and national level. If your specific area doesn\u2019t have enough local data, the app falls back to broader regional averages. Pricing can also vary based on the finish level you selected (Budget, Mid-Range, High-End, or Luxury) -make sure your project\u2019s finish level matches what your contractor is quoting.",
   },
   {
     q: "Some imported line items have the wrong category",
@@ -28,11 +28,11 @@ const troubleshooting = [
   },
   {
     q: "My quote didn\u2019t scan at all",
-    a: "Some quote formats are difficult for any scanner to read \u2014 especially handwritten estimates, quotes embedded in emails, or PDFs with complex table layouts. Try taking a clearer photo with good lighting, or if you have a PDF version, upload that instead. You can also manually enter line items if scanning isn\u2019t working for a particular document.",
+    a: "Some quote formats are difficult for any scanner to read -especially handwritten estimates, quotes embedded in emails, or PDFs with complex table layouts. Try taking a clearer photo with good lighting, or if you have a PDF version, upload that instead. You can also manually enter line items if scanning isn\u2019t working for a particular document.",
   },
   {
     q: "How do I get the most accurate price validation?",
-    a: "Three things make the biggest difference: (1) Set the correct project location \u2014 pricing varies significantly by region. (2) Choose the right finish level \u2014 budget-grade materials have very different pricing than luxury. (3) Make sure every line item has the correct category and subcategory. Taking a minute to verify these settings will give you much more reliable results.",
+    a: "Three things make the biggest difference: (1) Set the correct project location -pricing varies significantly by region. (2) Choose the right finish level -budget-grade materials have very different pricing than luxury. (3) Make sure every line item has the correct category and subcategory. Taking a minute to verify these settings will give you much more reliable results.",
   },
   {
     q: "Can I change my subscription plan?",
@@ -136,8 +136,8 @@ export default function SupportPage() {
                   <strong className="text-slate-800">
                     four quality tiers
                   </strong>{" "}
-                  &mdash; Budget/Builder Grade, Mid-Range, High-End, and Luxury
-                  &mdash; because the same line item can vary dramatically based
+                  - Budget/Builder Grade, Mid-Range, High-End, and Luxury
+                  - because the same line item can vary dramatically based
                   on material quality. A budget laminate countertop and a luxury
                   marble countertop are not the same price, and your validation
                   should reflect what your contractor is actually quoting.
@@ -149,7 +149,7 @@ export default function SupportPage() {
                   Actual costs depend on your specific project conditions,
                   contractor expertise, material availability, and local market
                   dynamics. Use Quoterly&apos;s validation as a strong starting
-                  point for conversations with your contractor &mdash; not as an
+                  point for conversations with your contractor - not as an
                   absolute guarantee of what a line item should cost.
                 </p>
               </div>
@@ -177,7 +177,7 @@ export default function SupportPage() {
             </section>
           </div>
 
-          {/* Sidebar — contact */}
+          {/* Sidebar -contact */}
           <div className="lg:col-span-1">
             <div className="sticky top-24 space-y-6">
               {/* Contact card */}
@@ -277,21 +277,21 @@ export default function SupportPage() {
                     <div className="w-2 h-2 bg-emerald-500 rounded-full mt-1.5 flex-shrink-0" />
                     <span>
                       <strong className="text-slate-700">General questions</strong>{" "}
-                      &mdash; within 24 hours
+                      - within 24 hours
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-2 h-2 bg-amber-500 rounded-full mt-1.5 flex-shrink-0" />
                     <span>
                       <strong className="text-slate-700">Bug reports</strong>{" "}
-                      &mdash; within 24 hours
+                      - within 24 hours
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-2 h-2 bg-blue-500 rounded-full mt-1.5 flex-shrink-0" />
                     <span>
                       <strong className="text-slate-700">Billing issues</strong>{" "}
-                      &mdash; within 12 hours
+                      - within 12 hours
                     </span>
                   </li>
                 </ul>

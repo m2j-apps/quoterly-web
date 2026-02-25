@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = posts.find((p) => p.slug === slug);
   if (!post) return {};
   return {
-    title: `${post.title} — Quoterly Blog`,
+    title: `${post.title} | Quoterly Blog`,
     description: post.metaDescription,
     openGraph: {
       title: post.title,

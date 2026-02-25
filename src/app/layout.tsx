@@ -14,11 +14,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Quoterly — Stop Overpaying for Home Projects",
+  title: "Quoterly | Stop Overpaying for Home Projects",
   description: "Quoterly validates contractor quotes against real market data so you always know if you're being charged fairly. Quote scanning, price intelligence, negotiation manager and more.",
   metadataBase: new URL("https://quoterly.app"),
   openGraph: {
-    title: "Quoterly — Stop Overpaying for Home Projects",
+    title: "Quoterly | Stop Overpaying for Home Projects",
     description: "Validate contractor quotes against real market data. Know exactly what's fair before you sign.",
     url: "https://quoterly.app",
     siteName: "Quoterly",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Quoterly — Stop Overpaying for Home Projects",
+    title: "Quoterly | Stop Overpaying for Home Projects",
     description: "Validate contractor quotes against real market data. Know exactly what's fair before you sign.",
   },
 };
