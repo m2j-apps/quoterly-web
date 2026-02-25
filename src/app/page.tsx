@@ -179,16 +179,13 @@ export default function Home() {
             <div className="hidden lg:flex justify-center">
               <div className="relative">
                 <div className="absolute -inset-8 bg-[#f59e0b]/10 rounded-full blur-3xl" />
-                <div className="relative bg-[#111] rounded-[3rem] p-3 shadow-2xl shadow-black/50" style={{ transform: "perspective(1000px) rotateY(-5deg)" }}>
+                <div className="relative bg-[#111] rounded-[3rem] p-3 shadow-2xl shadow-black/50">
                   <div className="rounded-[2.4rem] overflow-hidden w-[280px] h-[600px] relative">
-                    <Image
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
                       src="/app-screenshot.png"
                       alt="Quoterly app showing a kitchen remodel quote analysis with $3,400 in overcharges detected"
-                      fill
-                      sizes="280px"
-                      quality={100}
-                      className="object-cover object-top"
-                      priority
+                      className="absolute inset-0 w-full h-full object-cover object-top"
                     />
                   </div>
                 </div>
