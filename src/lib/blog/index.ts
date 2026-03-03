@@ -20,6 +20,7 @@ import { post as p9 } from "./homeowner-renovation-mistakes";
 import { post as p10 } from "./protect-yourself-from-contractor-overpayment";
 import { post as p11 } from "./home-renovation-payment-schedule";
 import { post as p12 } from "./questions-to-ask-before-hiring-a-contractor";
+import { post as p13 } from "./fixed-price-vs-time-and-materials";
 
 // Sorted newest first
-export const posts: BlogPost[] = [p12, p11, p10, p9, p8, p7, p6, p5, p4, p3, p2, p1];
+export const posts: BlogPost[] = [p13, p12, p11, p10, p9, p8, p7, p6, p5, p4, p3, p2, p1];
