@@ -57,8 +57,8 @@ const testimonials = [
 
 const faqs = [
   {
-    q: "Why does it cost $49.99/month?",
-    a: "Because one overpriced line item on a $25K renovation can cost you thousands. Quoterly typically saves homeowners 5\u201315x the subscription cost. Most users find a pricing issue within their first scan.",
+    q: "What are the pricing options?",
+    a: "You can choose a one-time scan for $2.99, a monthly plan for $9.99, or an annual plan for $79.99. Most users find a pricing issue within their first scan, so even one saved line item can cover the cost.",
   },
   {
     q: "How does quote scanning work?",
@@ -481,13 +481,41 @@ export default function Home() {
             <h2 className="text-4xl font-bold text-[#0f172a] mb-4">Simple, transparent pricing</h2>
             <p className="text-lg text-slate-500">One overpriced line item caught = Quoterly pays for itself</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            {/* Single Scan */}
+            <div className="border-2 border-slate-200 rounded-2xl p-8 hover:border-slate-300 transition-colors">
+              <h3 className="text-lg font-semibold text-[#0f172a] mb-1">Single Scan</h3>
+              <p className="text-slate-500 text-sm mb-6">Perfect for a quick quote check</p>
+              <div className="flex items-end gap-1 mb-6">
+                <span className="text-5xl font-bold text-[#0f172a]">$2.99</span>
+                <span className="text-slate-500 mb-1">one-time</span>
+              </div>
+              <ul className="space-y-3 mb-8">
+                {[
+                  "1 quote scan",
+                  "Line-item price validation",
+                  "Overpricing flag detection",
+                  "Actionable savings insights",
+                ].map((f, i) => (
+                  <li key={i} className="flex items-center gap-2 text-sm text-slate-600">
+                    <svg className="w-5 h-5 text-emerald-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    {f}
+                  </li>
+                ))}
+              </ul>
+              <div className="bg-slate-100 text-slate-500 text-center py-3 rounded-xl text-sm font-medium">
+                Coming Soon
+              </div>
+            </div>
+
             {/* Monthly */}
             <div className="border-2 border-slate-200 rounded-2xl p-8 hover:border-slate-300 transition-colors">
               <h3 className="text-lg font-semibold text-[#0f172a] mb-1">Monthly</h3>
               <p className="text-slate-500 text-sm mb-6">Perfect for a single renovation</p>
               <div className="flex items-end gap-1 mb-6">
-                <span className="text-5xl font-bold text-[#0f172a]">$49.99</span>
+                <span className="text-5xl font-bold text-[#0f172a]">$9.99</span>
                 <span className="text-slate-500 mb-1">/month</span>
               </div>
               <ul className="space-y-3 mb-8">
@@ -523,10 +551,10 @@ export default function Home() {
               <h3 className="text-lg font-semibold text-[#0f172a] mb-1">Annual</h3>
               <p className="text-slate-500 text-sm mb-6">Best for investors &amp; flippers</p>
               <div className="flex items-end gap-1 mb-1">
-                <span className="text-5xl font-bold text-[#0f172a]">$449.99</span>
+                <span className="text-5xl font-bold text-[#0f172a]">$79.99</span>
                 <span className="text-slate-500 mb-1">/year</span>
               </div>
-              <p className="text-emerald-600 text-sm font-medium mb-6">Save $150 vs monthly</p>
+              <p className="text-emerald-600 text-sm font-medium mb-6">Save $39.89 vs monthly</p>
               <ul className="space-y-3 mb-8">
                 {[
                   "Everything in Monthly",
