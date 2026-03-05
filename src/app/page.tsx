@@ -554,7 +554,7 @@ export default function Home() {
                 <span className="text-5xl font-bold text-[#0f172a]">$79.99</span>
                 <span className="text-slate-500 mb-1">/year</span>
               </div>
-              <p className="text-emerald-600 text-sm font-medium mb-6">Save $39.89 vs monthly</p>
+              <p className="text-emerald-600 text-sm font-medium mb-6">Save 33% vs monthly</p>
               <ul className="space-y-3 mb-8">
                 {[
                   "Everything in Monthly",
