@@ -209,18 +209,18 @@ export default function Home() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16">
             <div className="flex items-center gap-3">
-              <span className="text-2xl font-bold text-[#f59e0b]">5-15x</span>
-              <span className="text-sm text-slate-300">Average ROI</span>
-            </div>
-            <div className="hidden md:block w-px h-8 bg-white/20" />
-            <div className="flex items-center gap-3">
-              <span className="text-2xl font-bold text-[#f59e0b]">$3,400+</span>
-              <span className="text-sm text-slate-300">Avg savings per project</span>
+              <span className="text-2xl font-bold text-[#f59e0b]">Built for</span>
+              <span className="text-sm text-slate-300">Homeowners</span>
             </div>
             <div className="hidden md:block w-px h-8 bg-white/20" />
             <div className="flex items-center gap-3">
               <span className="text-2xl font-bold text-[#f59e0b]">60 sec</span>
               <span className="text-sm text-slate-300">To scan your first quote</span>
+            </div>
+            <div className="hidden md:block w-px h-8 bg-white/20" />
+            <div className="flex items-center gap-3">
+              <span className="text-2xl font-bold text-[#f59e0b]">Negotiate</span>
+              <span className="text-sm text-slate-300">with real data</span>
             </div>
           </div>
         </div>
