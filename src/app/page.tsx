@@ -119,6 +119,8 @@ const categories = [
   "Landscaping", "Pool & Spa", "General Repairs",
 ];
 
+const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.quoterly.app&utm_source=na_Med";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
@@ -140,7 +142,7 @@ export default function Home() {
             <div>
               <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-4 py-1.5 mb-8">
                 <span className="w-1.5 h-1.5 bg-emerald-400 rounded-full" />
-                <span className="text-sm text-slate-400">Coming soon to iOS &amp; Android</span>
+                <span className="text-sm text-slate-400">Now live on Google Play - iOS coming soon</span>
               </div>
               <h1 className="text-5xl md:text-7xl font-bold text-white tracking-tight leading-[1.1] mb-6">
                 Know what your
@@ -163,7 +165,12 @@ export default function Home() {
                     <p className="text-sm font-semibold text-white leading-tight">App Store</p>
                   </div>
                 </div>
-                <div className="flex items-center gap-3 bg-white/10 border border-white/20 rounded-xl px-6 py-3 hover:bg-white/[0.15] transition-colors cursor-pointer">
+                <Link
+                  href={PLAY_STORE_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 bg-white/10 border border-white/20 rounded-xl px-6 py-3 hover:bg-white/[0.15] transition-colors cursor-pointer"
+                >
                   <svg className="w-7 h-7 text-white" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M3,20.5v-17c0-1.1,1.35-1.65,2.12-.87l14.06,8.5c0.77,0.48,0.77,1.48,0,1.96L5.12,21.37C4.35,22.15,3,21.6,3,20.5z" />
                   </svg>
@@ -171,7 +178,7 @@ export default function Home() {
                     <p className="text-[10px] text-slate-400 leading-tight">Get it on</p>
                     <p className="text-sm font-semibold text-white leading-tight">Google Play</p>
                   </div>
-                </div>
+                </Link>
               </div>
             </div>
 
@@ -505,9 +512,7 @@ export default function Home() {
                   </li>
                 ))}
               </ul>
-              <div className="bg-slate-100 text-slate-500 text-center py-3 rounded-xl text-sm font-medium">
-                Coming Soon
-              </div>
+              <div className="bg-slate-100 text-slate-500 text-center py-3 rounded-xl text-sm font-medium">Available on Google Play</div>
             </div>
 
             {/* Monthly */}
@@ -536,9 +541,7 @@ export default function Home() {
                   </li>
                 ))}
               </ul>
-              <div className="bg-slate-100 text-slate-500 text-center py-3 rounded-xl text-sm font-medium">
-                Coming Soon
-              </div>
+              <div className="bg-slate-100 text-slate-500 text-center py-3 rounded-xl text-sm font-medium">Available on Google Play</div>
             </div>
 
             {/* Annual */}
@@ -569,9 +572,7 @@ export default function Home() {
                   </li>
                 ))}
               </ul>
-              <div className="bg-slate-100 text-slate-500 text-center py-3 rounded-xl text-sm font-medium">
-                Coming Soon
-              </div>
+              <div className="bg-slate-100 text-slate-500 text-center py-3 rounded-xl text-sm font-medium">Available on Google Play</div>
             </div>
           </div>
           <p className="text-center text-sm text-slate-400 mt-6">Available on iOS &amp; Android &middot; Cancel anytime</p>
@@ -609,7 +610,12 @@ export default function Home() {
                 <p className="text-sm font-semibold text-white">App Store</p>
               </div>
             </div>
-            <div className="flex items-center justify-center gap-3 bg-white/10 border border-white/20 rounded-xl px-8 py-4 hover:bg-white/[0.15] transition-colors cursor-pointer">
+            <Link
+              href={PLAY_STORE_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-3 bg-white/10 border border-white/20 rounded-xl px-8 py-4 hover:bg-white/[0.15] transition-colors cursor-pointer"
+            >
               <svg className="w-7 h-7 text-white" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M3,20.5v-17c0-1.1,1.35-1.65,2.12-.87l14.06,8.5c0.77,0.48,0.77,1.48,0,1.96L5.12,21.37C4.35,22.15,3,21.6,3,20.5z" />
               </svg>
@@ -617,7 +623,7 @@ export default function Home() {
                 <p className="text-xs text-slate-400">Get it on</p>
                 <p className="text-sm font-semibold text-white">Google Play</p>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </section>
