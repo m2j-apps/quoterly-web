@@ -23,6 +23,7 @@ import { post as p12 } from "./questions-to-ask-before-hiring-a-contractor";
 import { post as p13 } from "./fixed-price-vs-time-and-materials";
 import { post as p14 } from "./how-to-get-accurate-quotes-for-home-renovation-projects";
 import { post as p15 } from "./how-to-budget-for-a-home-improvement-project";
+import { post as p16 } from "./signs-trustworthy-vs-shady-contractor";
 
 // Sorted newest first
-export const posts: BlogPost[] = [p15, p14, p13, p12, p11, p10, p9, p8, p7, p6, p5, p4, p3, p2, p1];
+export const posts: BlogPost[] = [p16, p15, p14, p13, p12, p11, p10, p9, p8, p7, p6, p5, p4, p3, p2, p1];
