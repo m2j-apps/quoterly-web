@@ -28,6 +28,7 @@ import { post as p17 } from "./homeowners-guide-to-permits";
 import { post as p18 } from "./diy-vs-hiring-a-pro";
 import { post as p19 } from "./how-to-write-scope-of-work";
 import { post as p20 } from "./check-contractor-license-insurance";
+import { post as p21 } from "./contractor-goes-over-budget";
 
 // Sorted newest first
-export const posts: BlogPost[] = [p20, p19, p18, p17, p16, p15, p14, p13, p12, p11, p10, p9, p8, p7, p6, p5, p4, p3, p2, p1];
+export const posts: BlogPost[] = [p21, p20, p19, p18, p17, p16, p15, p14, p13, p12, p11, p10, p9, p8, p7, p6, p5, p4, p3, p2, p1];
