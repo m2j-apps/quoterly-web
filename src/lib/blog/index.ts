@@ -30,6 +30,7 @@ import { post as p19 } from "./how-to-write-scope-of-work";
 import { post as p20 } from "./check-contractor-license-insurance";
 import { post as p21 } from "./contractor-goes-over-budget";
 import { post as p22 } from "./how-long-should-renovation-take";
+import { post as p23 } from "./roof-replacement-cost-guide";
 
 // Sorted newest first
-export const posts: BlogPost[] = [p22, p21, p20, p19, p18, p17, p16, p15, p14, p13, p12, p11, p10, p9, p8, p7, p6, p5, p4, p3, p2, p1];
+export const posts: BlogPost[] = [p23, p22, p21, p20, p19, p18, p17, p16, p15, p14, p13, p12, p11, p10, p9, p8, p7, p6, p5, p4, p3, p2, p1];
